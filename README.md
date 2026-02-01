@@ -33,11 +33,10 @@ CS3093-crypto-network-security-final-project/
 │   └── CryptoFinalproj.pdf              # Complete project report
 ├── pcaps/
 │   └── traffic_capture.pcapng           # Wireshark network capture file
-├── screenshots/                          # Analysis screenshots
+├── screenshots/                         # Analysis screenshots
 │   ├── tcp-handshake.png                # TCP three-way handshake
-│   ├── http-post-login.png              # HTTP POST login request
-│   ├── plaintext-credentials.png        # Plaintext credentials exposure
-│   └── session-cookie.png               # Session cookie in traffic
+│   ├── http-post-login-plaintext.png    # Plaintext credentials exposure
+│   └── session-cookie-exposure.png      # Session cookie in traffic
 ├── LICENSE                              # MIT License file
 ├── .gitignore                           # Git ignore rules
 └── README.md                            # Project documentation
