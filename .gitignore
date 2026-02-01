@@ -1,0 +1,14 @@
+# Ignore all packet capture files by default
+*.pcap
+*.pcapng
+
+# Allow the intentionally included project capture
+!pcaps/traffic_capture.pcapng
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
